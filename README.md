@@ -2,6 +2,8 @@
 
 Trabajo Práctico N°3 — Repaso Front-End (Bootstrap) & Git Workflow, SEO, Accesibilidad, HTML Semántico.
 
+**Autora:** Andie Eileen Cruz — [@eileencross](https://github.com/eileencross) — andieeileencruz@gmail.com
+
 ## Descripción
 
 Portfolio personal maquetado en HTML5 semántico + Bootstrap, con foco en accesibilidad y buenas prácticas de SEO.
