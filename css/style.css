@@ -1,0 +1,148 @@
+/* Portfolio Andie Eileen Cruz — estilos personalizados sobre Bootstrap 5 */
+
+:root {
+  --accent: #6d4bff; /* WCAG AA: 5.12:1 con texto blanco (#7c5cff daba 4.34:1) */
+  --accent-light: #a78bfa;
+  --bg-elevated: #1a1d24;
+  --bg-surface: #14161b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background-color: #0f1115;
+}
+
+/* Enlace "saltar al contenido" para accesibilidad por teclado */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  z-index: 2000;
+  padding: 0.75rem 1.25rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 0 0 0.5rem 0;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Foco visible siempre, no se remueve el outline por accesibilidad */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--accent-light);
+  outline-offset: 2px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.text-accent {
+  color: var(--accent-light) !important;
+}
+
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+
+.btn-accent {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.btn-accent:hover,
+.btn-accent:focus {
+  background-color: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #0f1115;
+}
+
+.hero {
+  padding: 5rem 0;
+  background:
+    radial-gradient(circle at top right, rgba(109, 75, 255, 0.25), transparent 60%),
+    var(--bg-surface);
+}
+
+.avatar-placeholder {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), #22d3ee);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #0f1115;
+}
+
+.card {
+  background-color: var(--bg-elevated);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.card:hover,
+.card:focus-within {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+.skill-badge {
+  background-color: var(--bg-elevated);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.timeline {
+  border-left: 3px solid var(--accent);
+  padding-left: 1.5rem;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.94rem;
+  top: 0.25rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+footer a {
+  color: #cbd5e1;
+}
+
+footer a:hover {
+  color: var(--accent-light);
+}
+
+.error-code {
+  font-size: 7rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
