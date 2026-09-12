@@ -79,17 +79,16 @@ select:focus-visible {
     var(--bg-surface);
 }
 
-.avatar-placeholder {
+.avatar-photo {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), #22d3ee);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
-  font-weight: 700;
-  color: #0f1115;
+  object-fit: cover;
+  object-position: center 45%;
+  border: 4px solid transparent;
+  background:
+    linear-gradient(var(--bg-surface), var(--bg-surface)) padding-box,
+    linear-gradient(135deg, var(--accent), #22d3ee) border-box;
 }
 
 .card {
