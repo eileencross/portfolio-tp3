@@ -1,0 +1,9 @@
+TP N° 3 Repaso Front-End (Bootstrap vs. Tailwind) & Git Workflow. SEO. Accesibilidad. HTML Semántico
+Paso 1: Inicializar el repositorio local con git init y crear la estructura base de carpetas (css/, js/, img/).
+Paso 2: Crear la rama de trabajo mediante git checkout -b feature/maquetacion.
+Paso 3: Maquetar las 10 vistas en HTML5 (las diseñadas con Figma) e integrar Bootstrap junto con los estilos personalizados.
+Paso 4: Formatear el código con Prettier y realizar la auditoría de Lighthouse en Chrome DevTools, corrigiendo fallas de accesibilidad. Documentar en un archivo md en el repositorio
+Paso 5: Subir la rama a GitHub con git push origin feature/maquetacion y abrir un Pull Request hacia la rama main.
+Paso 6: Aprobar y fusionar (Merge) el Pull Request.
+Paso 7: Desplegar el sitio en producción estática GitHub Pages
+ Modalidad de Entrega y Criterios de EvaluaciónRepositorio de GitHub: Dirección del repositorio público individual con historial de commits, ramas y archivo README.md completo.Sitio Desplegado en Vivo: Dirección del sitio maquetado publicado en línea (vía Vercel o GitHub Pages).
