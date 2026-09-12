@@ -49,8 +49,8 @@ Portfolio personal maquetado en HTML5 semántico + Bootstrap, con foco en accesi
 
 ## Sitio publicado
 
-_(pendiente — se completa tras el deploy)_
+https://eileencross.github.io/portfolio-tp3/
 
 ## Auditoría de accesibilidad
 
-_(pendiente — ver `ACCESIBILIDAD.md`)_
+Puntaje Lighthouse: **100 / 100** en Accesibilidad, SEO y Buenas prácticas. Detalle completo en [`ACCESIBILIDAD.md`](ACCESIBILIDAD.md).

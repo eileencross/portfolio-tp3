@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap vs. Tailwind: ¿cuál elegir? | Blog | Andie Eileen Cruz</title>
+    <meta
+      name="description"
+      content="Comparación entre Bootstrap y Tailwind CSS: ventajas, desventajas y cuándo conviene usar cada uno."
+    />
+    <meta name="author" content="Andie Eileen Cruz" />
+    <link rel="canonical" href="https://eileencross.github.io/portfolio-tp3/blog-post.html" />
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"
+        aria-label="Navegación principal"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Andie Eileen Cruz</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu"
+            aria-controls="navMenu"
+            aria-expanded="false"
+            aria-label="Abrir menú de navegación"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">Sobre mí</a></li>
+              <li class="nav-item"><a class="nav-link" href="projects.html">Proyectos</a></li>
+              <li class="nav-item"><a class="nav-link" href="skills.html">Habilidades</a></li>
+              <li class="nav-item"><a class="nav-link" href="experience.html">Experiencia</a></li>
+              <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" class="py-5">
+      <div class="container" style="max-width: 760px">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="blog.html">Blog</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Bootstrap vs. Tailwind</li>
+          </ol>
+        </nav>
+
+        <article>
+          <header class="mb-4">
+            <h1 class="fw-bold">Bootstrap vs. Tailwind: ¿cuál elegir?</h1>
+            <p class="text-body-secondary">
+              Por Andie Eileen Cruz ·
+              <time datetime="2026-08-15">15 de agosto, 2026</time>
+            </p>
+          </header>
+
+          <p>
+            A la hora de maquetar un sitio, dos de las opciones más usadas son
+            <strong>Bootstrap</strong>
+            y
+            <strong>Tailwind CSS</strong>
+            . Ambas resuelven el mismo problema — escribir menos CSS a mano — pero con filosofías
+            distintas.
+          </p>
+
+          <h2 class="h4 mt-4">Bootstrap: componentes listos para usar</h2>
+          <p>
+            Bootstrap ofrece componentes ya armados (navbars, cards, modales, formularios) con
+            clases semánticas como
+            <code>.btn</code>
+            o
+            <code>.card</code>
+            . Es ideal cuando el tiempo apremia o el equipo necesita consistencia visual sin diseñar
+            cada componente desde cero.
+          </p>
+
+          <h2 class="h4 mt-4">Tailwind: utilidades de bajo nivel</h2>
+          <p>
+            Tailwind trabaja con clases utilitarias (
+            <code>flex</code>
+            ,
+            <code>p-4</code>
+            ,
+            <code>text-lg</code>
+            ) que se combinan para construir cualquier diseño, sin imponer un estilo visual propio.
+            Da más libertad, pero requiere más decisiones de diseño.
+          </p>
+
+          <h2 class="h4 mt-4">¿Cuál conviene?</h2>
+          <p>
+            Para prototipos rápidos, sitios institucionales o proyectos donde la velocidad importa
+            más que un diseño 100% a medida, Bootstrap suele ser la opción más práctica — como en
+            este mismo portfolio. Para productos con una identidad visual muy particular, Tailwind
+            da más control.
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-light py-4 mt-5">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3"
+      >
+        <p class="mb-0">
+          &copy;
+          <span id="current-year"></span>
+          Andie Eileen Cruz. Todos los derechos reservados.
+        </p>
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item">
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Perfil de GitHub"
+            >
+              <i class="bi bi-github fs-5"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Perfil de LinkedIn"
+            >
+              <i class="bi bi-linkedin fs-5"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="mailto:tu-email@ejemplo.com" aria-label="Enviar correo electrónico">
+              <i class="bi bi-envelope fs-5"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
